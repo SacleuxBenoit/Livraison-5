@@ -2,12 +2,20 @@
 
 const buttonPrevious = document.querySelector(".btn1");
 const buttonNext = document.querySelector(".btn2");
-const li = document.querySelector("li");
+const li = document.querySelectorAll("li");
 let positionNext = 0;
 
 function nextImage(){
     positionNext++;
-    li.classList.remove("active");
+
+    for(let i = 0; i < li.length; i++){
+    li[i].classList.remove("active");
+    }
+
+
+
+
+
 }
 
 

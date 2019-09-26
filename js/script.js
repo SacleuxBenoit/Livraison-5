@@ -11,15 +11,6 @@ function nextImage(){
     for(let i = 0; i < li.length; i++){
     li[i].classList.remove("active");
     }
-
-
-
-
-
 }
 
 
-
-
-buttonPrevious.addEventListener("click", () => alert("ok"));
-buttonNext.addEventListener("click", () => alert("ok"));

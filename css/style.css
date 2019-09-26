@@ -1,14 +1,23 @@
-ul{
-list-style-type: none;
-}
-
 .btn1{
     text-align:center;
     height:30px;
     width:100px;
 }
+
 .btn2{
     text-align:center;
     height:30px;
     width:100px;
 }
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display:none;
+}
+.active{
+    display:block
+}
+

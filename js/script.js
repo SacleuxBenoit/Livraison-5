@@ -8,6 +8,5 @@ const li = document.querySelector("li");
 
 
 
-
 buttonPrevious.addEventListener("click", () => alert("ok"));
 buttonNext.addEventListener("click", () => alert("ok"));

@@ -18,6 +18,19 @@ function nextImage(){
     li[positionNext].classList.add("active"); 
 }
 
+/*function previousImage(){
+    positionNext++;
+    if (positionNext == li.length){
+        positionNext = 0;
+    }
+   
+    for(let i = 0; i < li.length; i++){
+    li[i].classList.remove("active");
+    }
+    
+    li[positionNext].classList.add("active"); 
+}*/
+
 buttonNext.addEventListener("click", nextImage);
 buttonPrevious.addEventListener("click", previousImage);
 

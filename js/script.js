@@ -19,9 +19,9 @@ function nextImage(){
 }
 
 /*function previousImage(){
-    positionNext++;
-    if (positionNext == li.length){
-        positionNext = 0;
+    positionNext;
+    if (positionNext < 0){
+        positionNext = 2;
     }
    
     for(let i = 0; i < li.length; i++){
@@ -32,6 +32,6 @@ function nextImage(){
 }*/
 
 buttonNext.addEventListener("click", nextImage);
-buttonPrevious.addEventListener("click", previousImage);
+//buttonPrevious.addEventListener("click", previousImage);
 
 

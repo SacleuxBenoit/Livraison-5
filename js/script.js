@@ -32,5 +32,8 @@ function previousImage(){
 
 buttonNext.addEventListener("click", nextImage);
 buttonPrevious.addEventListener("click", previousImage);
+setInterval(function(){
+    nextImage();
+},5000)
 
 

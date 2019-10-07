@@ -18,7 +18,7 @@ function nextImage(){
     li[positionNext].classList.add("active"); 
 }
 
-function previousImage(){
+/*function previousImage(){
     
     if (positionNext > 0){
         positionNext--;
@@ -28,12 +28,12 @@ function previousImage(){
     }
     
     li[positionNext].classList.add("active"); 
-}
+}*/
 
 buttonNext.addEventListener("click", nextImage);
 buttonPrevious.addEventListener("click", previousImage);
-setInterval(function(){
+/*setInterval(function(){
     nextImage();
-},5000)
+},5000)*/
 
 
